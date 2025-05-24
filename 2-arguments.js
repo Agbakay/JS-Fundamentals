@@ -1,8 +1,8 @@
-const argsLength = process.argv.Lenth -2;
+const args = process.argv.Lenth -2;
 
-if(argsLength === 0) {
+if(args === 0) {
   console.log("No argument");
-} else if (argsLength === 1) {
+} else if (args === 1) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
