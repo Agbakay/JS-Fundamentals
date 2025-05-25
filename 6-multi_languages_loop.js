@@ -1,15 +1,12 @@
 const lines = [
-  "C is fun",
-  "Python is cool",
+  "C is fun\n",
+  "Python is cool\n",
   "JavaScript is amazing"
 ];
 
-let output = '';
+let outputString = '';
 for (let i = 0; i < lines.length; i++) {
-  output += lines[i];
-  if (i < lines.length - 1) {
-    output += '\n';
-  }
+  outputString += lines[i];
 }
 
-console.log(output);
+console.log(outputString);
